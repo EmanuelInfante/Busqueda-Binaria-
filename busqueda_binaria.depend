@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1602118817 source:/home/gabriel/Documentos/pruebas/busqueda_binaria/main.cpp
+	<iostream>
+	"Numeros.h"
+
+1602118739 /home/gabriel/Documentos/pruebas/busqueda_binaria/include/Numeros.h
+
+1602118392 source:/home/gabriel/Documentos/pruebas/busqueda_binaria/src/Numeros.cpp
+	<iostream>
+	"Numeros.h"
+
+1602118817 source:/home/gabriel/Documentos/programacion_cplusplus/Segundo trabajo/busqueda_binaria/main.cpp
+	<iostream>
+	"Numeros.h"
+
+1602118739 /home/gabriel/Documentos/programacion_cplusplus/Segundo trabajo/busqueda_binaria/include/Numeros.h
+
+1602118874 source:/home/gabriel/Documentos/programacion_cplusplus/Segundo trabajo/busqueda_binaria/src/Numeros.cpp
+	<iostream>
+	"Numeros.h"
+
