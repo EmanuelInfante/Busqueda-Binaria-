@@ -31,6 +31,7 @@ void Numeros::algoritmoBurbuja()
         seModificoArreglo = false;
         for(int i = 0; i < this ->cantidadNumeros - 1; i++)
         {
+            // Si se consigue un número en una posición incorrecta, se acomoda
             if(this ->arregloNumeros[i] > this ->arregloNumeros[i+1])
             {
                 float aux = this ->arregloNumeros[i];
@@ -69,13 +70,16 @@ int Numeros::busquedaBinaria(float numeroBuscado)
     {
         int auxPosicion = (maximo + minimo) / 2;
 
-        //Se modifica la posición del rango donde puede estar el número
+        //Si el número buscado es menor que la posición actual, se iguala a la posición máxima -1
         if(numeroBuscado < this ->arregloNumeros[auxPosicion])
             maximo = auxPosicion - 1;
+        // Si el número buscado es mayor que  la posición actual, se iguala a la posición minima -1
         else if(numeroBuscado > this ->arregloNumeros[auxPosicion])
             minimo = auxPosicion + 1;
+        // Si no se encuenta el número se retorna -1
         else if(arregloNumeros[minimo] > numeroBuscado || arregloNumeros[maximo] < numeroBuscado)
             return -1;
+        // Si se encuentra el número, se retorna la posición
         else
             return auxPosicion;
     }
